@@ -12,6 +12,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="h-full flex items-center w-20">
+
         <button className="bg-[#4477CE] w-full h-8 rounded-lg">SignIn</button>
       </div>
     </div>

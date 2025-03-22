@@ -9,7 +9,7 @@ export default function Home() {
         <Header />
       </header>
       <main className="flex-1 mt-[10vh]">
-       {/* <Center/> */}
+       <Center/>
        <Interviews/>
       </main>
       <footer className="h-[30%] bg-[#202c3b] ">

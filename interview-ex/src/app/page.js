@@ -1,7 +1,8 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Center from "../components/Center";
-import Interviews from "../components/Interviews";
+import Footer from "../components/Footer/Page";
+import Header from "../components/Header/Page";
+import Center from "../components/Center/Page";
+import Interviews from "../components/Interviews/Page";
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col ">
@@ -15,6 +16,6 @@ export default function Home() {
       <footer className="h-[30%] bg-[#202c3b] ">
         <Footer />
       </footer>
-    </div>
+      </div>
   );
 }
